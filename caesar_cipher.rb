@@ -9,6 +9,6 @@
 
 str = gets.chomp.downcase.chars
 alphabet = str.to_a
-index = (1...27).to_a
+index = (1..alphabet.size).to_a
 c = Hash[index.zip(alphabet)]
 puts c
